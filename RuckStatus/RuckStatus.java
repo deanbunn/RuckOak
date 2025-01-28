@@ -6,8 +6,20 @@
 public class RuckStatus {
 
     public static void main(String[] args){
-
-        System.out.println("Howdy");
-
+        
+        if(args.length > 0)
+        {
+            if(args[0].isEmpty() == false)
+            {
+                System.out.println(args[0]);
+            }
+            
+        }
+        else
+        {
+            System.out.println("no stuff given");
+        }
+        
     }
 }
+
